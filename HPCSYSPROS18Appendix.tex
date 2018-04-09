@@ -1,30 +1,5 @@
-% LaTeX template for the Supercomputing Conference series Artifact Description (AD) appendix  
-% V20180131
-% (C)opyright 2018
-
-% Derived with permission by Michael Heroux (Sandia National Laboratories, St. John's University, MN)
-% from ae-20160509.tex 
-% written by Grigori Fursin (cTuning foundation, France and dividiti, UK) 
-% and Bruce Childers (University of Pittsburgh, USA)
-% (C)opyright 2014-2016
-
-% acmart is available at https://www.acm.org/publications/proceedings-template
-%\documentclass[sigconf,twocolumn]{acmart}
-% IEEETrans is available at https://www.ieee.org/conferences_events/conferences/publishing/templates.html
-\documentclass{IEEETran}
-\begin{document}
-
-\special{papersize=8.5in,11in}
-
-\section{Placeholder Section -- Remove}
-
-Submission and reviewing guidelines, and methodology are available for each year, where `scxy' is replaced with the proper year, e.g., `sc18': \\
-{\small\em http://scxy.supercomputing.org/program/reproducibility}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% When adding this appendix to your paper, 
-% please remove above part
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# This artifact descriptor if a modified version of the SC18 artifact descriptor by Dr. Michael Heroux.
+# You can find the original at: https://github.com/Collegeville/sc-reproducibility/
 
 \appendix
 
@@ -34,7 +9,8 @@ Submission and reviewing guidelines, and methodology are available for each year
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Abstract}
 
-{\em If a paper has no computational results and submits this appendix, the authors only need to complete this abstract subsection and mention that the paper has no computational results.  This text is sufficient: \textbf{``This paper contains no computational results.''}  Other subsections can be removed.}
+{\em If a paper has no artifact and submits this appendix, the authors only need to complete this abstract subsection and mention that the paper has no artifact.  This text is sufficient: \textbf{``This paper is not paired with an artifact.''}  Other subsections can be removed. In order to maintain consistency in naming conventions with the SC18 technical program, please consider the word "experiment" to be equivalent to "demonstration"} 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Description}
@@ -59,33 +35,37 @@ Submission and reviewing guidelines, and methodology are available for each year
   \item {\bf Experiment workflow: }
   \item {\bf Experiment customization: }
   \item {\bf Publicly available?: }
+  \item {\bf Wiring Diagrams: }
+  \item {\bf Data Flow Descriptions: }
+  
 \end{itemize}
 }
+{\em Please pay special attention to obligatory descriptions below.}
 
-\subsubsection{How software can be obtained (if available)}
-
-{\em Obligatory if the paper contains computational results.}
+\subsubsection{How software can be obtained }
+{\em Obligatory if the paper is paired with an artifact.}
 
 \subsubsection{Hardware dependencies}
 
 \subsubsection{Software dependencies}
+{\em Obligatory if the paper is paired with an artifact.}
+
 
 \subsubsection{Datasets}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Installation}
 
-{\em Obligatory if the paper contains computational results.}
+{\em Obligatory if the paper is paired with an artifact.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Experiment workflow}
 
-{\em Obligatory if the paper contains computational results.}
+{\em Obligatory if the paper is paired with an artifact.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Evaluation and expected result}
 
-{\em Obligatory if the paper contains computational results.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Experiment customization}
@@ -93,9 +73,4 @@ Submission and reviewing guidelines, and methodology are available for each year
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Notes}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% When adding this appendix to your paper, 
-% please remove below part
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{document}
